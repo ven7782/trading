@@ -64,7 +64,7 @@ def fetch_paginated_minute_data(api_key, ticker, start_date, end_date):
         return pd.DataFrame()
 
 # Example usage
-api_key = "9DtepbbaBrTstAj9Rm4WQracoXiH9BkV"  # Replace with your Polygon.io API key
+api_key = ""  # Replace with your Polygon.io API key
 # ticker = "ERY"
 ticker = args[1]
 start_date = "2024-01-01"
